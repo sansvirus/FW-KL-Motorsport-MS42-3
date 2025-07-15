@@ -6,4 +6,6 @@
 void setBoardDefaultConfiguration() {
     setHellenVbatt();
     setHellenCan();
+    hellenMegaSdWithAccelerometer();
+    setDefaultHellenAtPullUps();
 }
