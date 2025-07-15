@@ -8,4 +8,5 @@ void setBoardDefaultConfiguration() {
     setHellenCan();
     hellenMegaSdWithAccelerometer();
     setDefaultHellenAtPullUps();
+    setHellenMMbaro();
 }
