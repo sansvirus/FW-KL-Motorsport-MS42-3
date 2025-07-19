@@ -1,0 +1,1 @@
+#define PIN_TPS2 H144_IN_TPS2
