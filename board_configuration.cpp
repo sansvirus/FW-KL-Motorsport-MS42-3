@@ -2,14 +2,19 @@
 #include "hellen_meta.h"
 #include "defaults.h"
 
+
+void setBoardConfigOverrides() {
+	setHellenMegaEnPin();
+	setHellenVbatt();
+	hellenMegaSdWithAccelerometer();
+	setHellenCan();
+ 	setDefaultHellenAtPullUps();
+}
+
+
 // board-specific configuration setup
 void setBoardDefaultConfiguration() {
-    setHellenVbatt();
-    setHellenCan();
-    hellenMegaSdWithAccelerometer();
-    setDefaultHellenAtPullUps();
     setHellenMMbaro();
-    setHellenMegaEnPin();
 	// SPI2 for on-board EGT
 	engineConfiguration->is_enabled_spi_2 = true;
 	// MOSI not needed, we have one-way communication here
