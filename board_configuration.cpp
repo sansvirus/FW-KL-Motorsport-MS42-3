@@ -15,7 +15,7 @@ void setBoardConfigOverrides() {
 // board-specific configuration setup
 void setBoardDefaultConfiguration() {
     setHellenMMbaro();
-	setupEGT() 
+	setupEGT();
 	
 	//EGT overwrites
 
