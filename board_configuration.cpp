@@ -15,11 +15,16 @@ void setBoardConfigOverrides() {
 // board-specific configuration setup
 void setBoardDefaultConfiguration() {
     setHellenMMbaro();
-	// SPI2 for on-board EGT
-	engineConfiguration->is_enabled_spi_2 = true;
-	// MOSI not needed, we have one-way communication here
-	engineConfiguration->spi2misoPin = Gpio::B14;
+}
+static void setupEGT() {
+	
+	//EGT overwrites
+
 	engineConfiguration->spi2sckPin = Gpio::B13;
-	engineConfiguration->max31855_cs[0] = Gpio::B12;
+	engineConfiguration->spi2misoPin = Gpio::B14;
+	engineConfiguration->spi2mosiPin = Gpio::B15;
+	engineConfiguration->is_enabled_spi_2 = true;
+
 	engineConfiguration->max31855spiDevice = SPI_DEVICE_2;
+	engineConfiguration->max31855_cs[0] = Gpio::B12;
 }
