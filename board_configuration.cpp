@@ -3,7 +3,7 @@
 #include "defaults.h"
 
 
-static void KLM_MS43_boardConfigOverrides(){
+static void KLM_MS43_boardConfigOverrides() {
 	setHellenMegaEnPin();
 	hellenMegaSdWithAccelerometer();
 	setHellenCan();
