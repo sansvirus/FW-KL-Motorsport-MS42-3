@@ -1,18 +1,17 @@
 #include "pch.h"
 #include "hellen_meta.h"
 #include "defaults.h"
+#include "board_overrides.h"
 
-
-
-static void KLM_MS43_boardoverrides() {
-	setHellenMegaEnPin();
+static void customBoardDefaultConfiguration() {
+    setHellenMegaEnPin();
 	hellenMegaSdWithAccelerometer();
 	setHellenCan();
  	setDefaultHellenAtPullUps();
     setHellenMMbaro();
+
 }
 
 void setup_custom_board_overrides() {
-	custom_board_DefaultConfiguration = KLM_MS43_boardDefaultConfiguration;
-	custom_board_ConfigOverrides =  KLM_MS43_boardConfigOverrides;
+	custom_board_DefaultConfiguration = customBoardDefaultConfiguration;
 }
