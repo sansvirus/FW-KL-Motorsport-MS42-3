@@ -1,1 +1,25 @@
-#define ts_show_etb_pins false
+#define ts_show_etb_pins true
+#define ts_show_can2 false
+#define ts_show_software_knock true
+#define MAX_CYLINDER_COUNT 6
+#define ts_show_cylinder_7 false
+#define ts_show_cylinder_8 false
+#define ts_show_cylinder_9 false
+#define ts_show_cylinder_10 false
+#define ts_show_cylinder_11 false
+#define ts_show_cylinder_12 false
+#define ts_show_fuel_trim_cylinder_7 false
+#define ts_show_fuel_trim_cylinder_8 false
+#define ts_show_fuel_trim_cylinder_9 false
+#define ts_show_fuel_trim_cylinder_10 false
+#define ts_show_fuel_trim_cylinder_11 false
+#define ts_show_fuel_trim_cylinder_12 false
+#define ts_show_analog_divider false
+#define ts_show_tcu false
+#define ts_show_gdi false
+#define FRONTEND_TITLE_BAR_NAME "KL Motorsport MS42_MS43"
+#define ts_show_tps2 false
+#define ts_show_ford_toyota_tps_pps false
+#define ts_show_rotary false
+#define ts_show_starter_disable false
+#define ts_show_status_leds false
