@@ -1516,7 +1516,7 @@
 #define SentInput_NONE 0
 #define show_tcu_gauges false
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 416161301
+#define SIGNATURE_HASH 1109385221
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1863,7 +1863,7 @@
 #define ts_show_air_conditioning true
 #define ts_show_alternator true
 #define ts_show_analog_diag false
-#define ts_show_analog_divider true
+#define ts_show_analog_divider false
 #define ts_show_analog_ego true
 #define ts_show_analog_input_settings true
 #define ts_show_analog_o2 true
@@ -1876,7 +1876,7 @@
 #define ts_show_brake_pedal_pin true
 #define ts_show_cam1 true
 #define ts_show_cam2 true
-#define ts_show_can2 true
+#define ts_show_can2 false
 #define ts_show_can_bitrate true
 #define ts_show_can_pins true
 #define ts_show_can_wbo true
@@ -1919,7 +1919,7 @@
 #define ts_show_etb_min_max true
 #define ts_show_etb_pid true
 #define ts_show_etb_pid_autotune true
-#define ts_show_etb_pins false
+#define ts_show_etb_pins true
 #define ts_show_exhaust_vvt true
 #define ts_show_experimental true
 #define ts_show_fan2_settings true
@@ -1930,7 +1930,7 @@
 #define ts_show_flood_clear true
 #define ts_show_flow_units true
 #define ts_show_forced_induction false
-#define ts_show_ford_toyota_tps_pps true
+#define ts_show_ford_toyota_tps_pps false
 #define ts_show_FractionDivisor true
 #define ts_show_fuel_level_sensor true
 #define ts_show_fuel_pressure_sensor true
@@ -2008,12 +2008,12 @@
 #define ts_show_primary_trigger true
 #define ts_show_reboot_to_dfu true
 #define ts_show_reset_calibrations true
-#define ts_show_rotary true
+#define ts_show_rotary false
 #define ts_show_sd_card true
 #define ts_show_sd_pins true
 #define ts_show_second_bank true
 #define ts_show_sent true
-#define ts_show_software_knock false
+#define ts_show_software_knock true
 #define ts_show_speedo_settings true
 #define ts_show_spi true
 #define ts_show_spi1_enable true
@@ -2030,9 +2030,9 @@
 #define ts_show_spi6_pins false
 #define ts_show_staged_injection true
 #define ts_show_start_button true
-#define ts_show_starter_disable true
+#define ts_show_starter_disable false
 #define ts_show_startup_map_baro_grab true
-#define ts_show_status_leds true
+#define ts_show_status_leds false
 #define ts_show_stepper_hbridge true
 #define ts_show_stepper_push_pull false
 #define ts_show_strokes true
@@ -2042,7 +2042,7 @@
 #define ts_show_throttle_switch true
 #define ts_show_tle8888 false
 #define ts_show_top_level_can_menu true
-#define ts_show_tps2 true
+#define ts_show_tps2 false
 #define ts_show_tps_sent false
 #define ts_show_trigger_advanced true
 #define ts_show_trigger_gap_override_flag true
@@ -2068,7 +2068,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2025.08.15.KL_Motorsport_MS42_MS43.416161301"
+#define TS_SIGNATURE "rusEFI main.2025.08.16.KL_Motorsport_MS42_MS43.1109385221"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_TEST_COMMAND 't'
