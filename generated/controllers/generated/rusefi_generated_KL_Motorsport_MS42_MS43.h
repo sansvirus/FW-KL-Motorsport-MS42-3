@@ -2119,7 +2119,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2025.10.26.KL_Motorsport_MS42_MS43.3142877493"
+#define TS_SIGNATURE "rusEFI main.2025.10.27.KL_Motorsport_MS42_MS43.3142877493"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_TEST_COMMAND 't'
