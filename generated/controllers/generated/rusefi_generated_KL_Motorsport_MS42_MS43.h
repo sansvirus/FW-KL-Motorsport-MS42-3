@@ -2276,7 +2276,7 @@
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
 #define ts_show_wbo_canbus_set_type false
-#define TS_SIGNATURE "rusEFI main.2026.08.04.KL_Motorsport_MS42_MS43.4146789362"
+#define TS_SIGNATURE "rusEFI main.2026.08.05.KL_Motorsport_MS42_MS43.4146789362"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_TEST_COMMAND 't'
